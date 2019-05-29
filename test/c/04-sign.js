@@ -1,5 +1,5 @@
 var nacl = require('../../' + (process.env.NACL_SRC || 'nacl.min.js'));
-nacl.util = require('tweetnacl-util');
+nacl.util = require('tweetnacl-util-with-polyfill');
 var spawn = require('child_process').spawn;
 var path = require('path');
 var test = require('tape');

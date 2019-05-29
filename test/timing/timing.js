@@ -1,6 +1,6 @@
 // Measures timing variations and displays them
 var nacl = (typeof window !== 'undefined') ? window.nacl : require('../../' + (process.env.NACL_SRC || 'nacl.min.js'));
-nacl.util = require('tweetnacl-util');
+nacl.util = require('tweetnacl-util-with-polyfill');
 var test = require('tape');
 
 var hex = function(x) { return Buffer.from(x).toString('hex'); }
