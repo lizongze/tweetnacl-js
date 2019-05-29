@@ -47,8 +47,8 @@
     "tap-browser-color": "^0.1.2",
     "tape": "^4.6.3",
     "tweetnacl-util-with-polyfill": "^0.15.0",
-	"uglify-js": "^2.7.5",
-	"polyfill-crypto.getrandomvalues": "1.0.0"
+    "uglify-js": "^2.7.5",
+    "polyfill-crypto.getrandomvalues": "1.0.0"
   },
   "browser": {
     "buffer": false,
