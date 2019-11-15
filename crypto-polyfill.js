@@ -8,6 +8,7 @@ polyfill(g || {})
 
 function polyfill(g) {
 	if (!g.crypto) {
+		delete g.crypto;
 		g.crypto = {}
 	}
 	if (!g.crypto.getRandomValues) {
